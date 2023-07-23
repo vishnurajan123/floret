@@ -1,0 +1,502 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bg{
+  
+   width: 100%;
+ background-attachment: fixed;
+   
+   
+  
+    
+  
+    
+
+    
+}
+video{
+  background-attachment: fixed;
+}
+nav{
+    position: absolute;
+    width: 85%;
+    top: 20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+
+   
+}
+.logo{
+    padding: 22px 20px;
+    font-weight: bold;
+
+    font-size: 25px;
+    font-weight: bold;
+    top: 20px;
+    color:black;
+}
+.list{
+    display: inline-block;
+    margin: 10px 20px;
+  
+}
+.link{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(94, 106, 94);
+}
+.link:hover{
+    color: red;
+}
+
+video{
+    width: 100%;
+   
+  
+ 
+
+ 
+}
+.one
+{ 
+ 
+    width:60rem;
+    display: flex;
+    flex-wrap: row wrap;
+
+    position: relative; 
+    align-items: center;
+    margin-top:30px;
+    justify-content: center;
+    
+  
+
+}
+#as{
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    font-size: 80px;
+    color: rgb(24, 22, 22);
+  
+}
+
+
+.one div{
+    width: 30%;
+  
+
+
+}
+
+#two{
+   margin-top: 180px;
+   margin-left: 70px;
+
+
+}
+#the{
+    margin-left: 70px;
+
+}
+img{
+    width: 100%;
+}
+.content{
+
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-align: center;
+   
+}
+h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+button{
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px ;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid white ;
+    color:rgb(94, 106, 94);
+    font-size: 20px;
+    cursor: pointer;
+    font-weight:600;
+}
+button:hover{
+    background-color: rgb(228, 120, 81);
+}
+
+.cost{
+    width: 25rem;
+    border: 1px solid rgb(228, 226, 226);
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+
+}
+.cost img{
+    width: 100%;
+}
+.cost h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+}
+.container4{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(212, 212, 212);
+    padding-bottom: 100px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+
+}
+.cost p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.checked {
+    color: rgb(255, 77, 0);
+  }
+  .rat{
+    text-align: center;
+    margin-top: 30px;
+  }
+  .costt{
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+
+
+  }
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 300px; */
+    padding: 10px;
+    background-color:rgb(190, 156, 115);
+    flex-wrap: wrap;
+
+  }
+  .bbb img{
+    width: 100%;
+    height: 100%;
+  }
+  .footer h5{
+    font-size: 1.5rem;
+  }
+  .footer h6{
+    font-size: 1rem;
+    color: white;
+    line-height: 40px;
+  }
+  .footer i{
+    margin-top: 20px;
+    margin-right: 10px;
+    color: white;
+
+  }
+  .checkbox{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+.flower{
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin:30px;
+    flex-wrap: wrap;
+}
+
+#f1{
+    background-image: url("https://images.unsplash.com/photo-1543157145-f78c636d023d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80");
+    background-size: cover;
+    width: 40rem;
+    height: 20rem;
+}
+#f2{
+    background-image: url("https://images.unsplash.com/photo-1493957988430-a5f2e15f39a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    width: 40rem;
+    height: 20rem;
+    padding-left: 10px;
+}
+#f1 h1{
+    text-align: center;
+    margin-top: 200px;
+}
+#f2 h3{
+    font-size: 2.5rem;
+    margin-top: 100px;
+}
+.vishnu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(237, 237, 237);
+}
+.vishnu h4{
+    font-size: 2rem;
+}
+.flex{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+
+.itemm{
+    width: 18rem;
+    border: 1px solid rgb(231, 231, 231);
+    height: 23rem;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 10px;
+
+}
+.itemm img{
+    width: 100%;
+}
+.itemm h3{
+    text-align: center;
+    font-size: 2rem;
+}
+.itemm h4{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+.itemm a{
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.itemm p{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.itemm:hover{
+  margin-top: -10px;
+}
+.itemm a:hover{
+  background-color: rgb(0, 69, 0);
+}
+.flowers{
+  background-image: url("./images/fff.jpg");
+  height: 90vh;
+  background-size: cover;
+}
+.flowers h1{
+  float: right;
+  margin-top: 200px;
+}
+.colorfull{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.colorfull h2{
+  text-align: center;
+  padding-bottom: 20px;
+  width: 100%;
+}
+.mail input{
+  width: 300px;
+  height: 40px;
+  border: 2px solid;
+}
+.mail{
+  margin-top: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.mail a{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  height:23px;
+  margin-left: -5px;
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100px;
+}
+.mail a:hover{
+  background-color: orangered;
+}
+.feet{
+  background-image: url("./images/photo-1465146344425-f00d5f5c8f07.jpg");
+  height: 200px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.floret{
+  background-color:rgb(190, 156, 115);
+  height: 30px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.floret h3{
+  margin-top: 5px;
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff8400;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media(max-width:1000px){
+    .checkbox{
+        display: block;
+      }
+      ul{
+        position: absolute;
+        width:40%;
+        height: 50vh;
+         top: 80px;
+         left: -100%;
+         background-color:rgba(0,0,0,0.8);
+         text-align: center;
+         transition: all 0.5s;
+      }
+      li{
+        display: block;
+        color: white;
+        line-height: 40px;
+        margin-top: 40px;     
+     }
+      a{
+        font-size: 20px;
+        color: white;
+      }
+      #check:checked ~ ul{
+        left: 0;
+      }
+nav{
+    margin-left: 0;
+}
+
+      .logo{
+
+       text-align: center;
+         margin-top: 10px;
+         margin-left: 50px;
+         color: black;
+       }
+       .one{
+        text-align:left;
+        margin-left: 10px;
+    
+        width: 100%;
+        color: aliceblue;
+      }
+      .one h1{
+        text-align: center;
+        margin-top: 20px;
+      }
+      .container3{
+        margin-top: 1000px;
+      }
+      .zzz h2{
+        padding-top: 1100px;
+      }
+      .flower{
+        height: 50rem;
+      }
+      .content{
+        top: 0;
+      }
+      .content h1{
+        visibility: hidden;
+        font-size: 2rem;
+      }
+      .content{
+        visibility: hidden;
+      }
+      #f1 h1{
+        margin-top: 100px;
+      }
+      .mail{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+      }
+      
+      .mail input{
+        width: 300px;
+        height: 60px;
+      }
+      .mail a{
+        width: 100px;
+        margin-top: 10px;
+        font-size: 1rem;
+        border-radius: 5px;
+        padding-left: 5px;
+      }
+      .flowers h1{
+        font-size: 3rem;
+      }
+
+}  
